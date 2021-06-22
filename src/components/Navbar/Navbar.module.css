@@ -1,0 +1,236 @@
+.header div {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.navContainer {
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.nav {
+  width: 1720px;
+  height: 3.125rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #6a6a6a;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0 16px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #6a6a6a;
+  font-size: 0.75rem;
+}
+
+.nav p {
+  font-size: 0.75rem;
+}
+
+.navMainContainer {
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.navMain {
+  width: 1720px;
+  height: 6.25rem;
+  position: relative;
+  align-items: center;
+  color: #6a6a6a;
+}
+
+.navMain ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.navMain a {
+  text-decoration: none;
+  color: #6a6a6a;
+  font-size: 0.875rem;
+}
+
+.navMain .iconBar {
+  padding: 0;
+  margin: 0 25px 0 0;
+}
+
+.menu li {
+  padding: 0;
+  margin: 25px;
+}
+
+.menuCall {
+  margin: 0 32.425px 0 auto;
+}
+
+.menuRight {
+  margin-right: -20.875px;
+}
+
+.menuRight li {
+  padding: 0;
+  margin: 0 20.875px;
+}
+
+.menuRight span {
+  width: 0.125rem;
+}
+
+.menuRight button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.hidden nav,
+.hidden div {
+  display: none;
+}
+
+.header .iconBar {
+  display: none;
+}
+
+@media (max-width: 1720px) {
+  .navContainer .nav {
+    margin: 0 100px;
+  }
+
+  .navMainContainer .menu {
+    margin-left: 100px;
+  }
+
+  .navMainContainer .menuRight {
+    margin-right: 100px;
+  }
+
+  .navMainContainer nav li {
+    margin: 0 12.5px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .header .navContainer .nav,
+  .header .navMainContainer .menu,
+  .header .navMainContainer .menuCall,
+  .header .navMainContainer .menuRight a,
+  .header .navMainContainer .menuRight span {
+    display: none;
+  }
+
+  .header .navMainContainer {
+    font-size: 1.5rem;
+  }
+
+  .header .iconBar {
+    display: flex;
+    margin-right: 0;
+    margin-left: 100px;
+  }
+
+  .header .iconBar button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: auto 0;
+  }
+
+  /* ------show---------- */
+
+  .showHeader .navContainer .nav,
+  .showHeader .navMainContainer nav,
+  .showHeader .navMainContainer div {
+    display: none;
+  }
+
+  .showHeader div {
+    display: block;
+  }
+
+  .show .navMain,
+  .show .menuContainer {
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+
+  .show .iconBar {
+    margin: auto 0;
+  }
+
+  .show {
+    height: 6.25rem;
+    font-size: 1.5rem;
+  }
+
+  .show .heardBarContainer {
+    display: flex;
+    height: 6.25rem;
+    padding: 0 100px;
+  }
+
+  .show .heardBarContainer button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: auto 12.5px;
+  }
+
+  .show .iconBar button {
+    margin: auto 0;
+  }
+
+  .show .menuContainer {
+    width: 400px;
+    height: 100%;
+    top: 6.25rem;
+    background-color: #ffffff;
+    padding-left: 100px;
+    overflow-y: auto;
+  }
+
+  .show .menuContainer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .show .menuContainer li {
+    margin: 0;
+    padding: 30px 0;
+    border-bottom: 1px solid #6a6a6a;
+  }
+
+  .show .menuContainer a {
+    font-size: 1.5rem;
+    color: #6a6a6a;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

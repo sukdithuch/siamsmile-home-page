@@ -1,0 +1,133 @@
+.offersSec {
+  padding: 5.688rem 0 5.625rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.textTop {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: #5cc9a3;
+  padding: 0.094rem 0;
+  margin: 0;
+}
+
+.textMid {
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  color: #292929;
+  padding: 0.125rem 0;
+  margin: 0.769rem 0 0.838rem;
+}
+
+.textLow {
+  font-size: 1rem;
+  color: #6a6a6a;
+  letter-spacing: 0.5px;
+  padding: 0.031rem 0;
+}
+
+.listGroup button {
+  height: 1.188rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: #6a6a6a;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin: 2.15rem 13.652px 1.625rem;
+}
+
+.productitems {
+  display: block;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.containerItems {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
+}
+
+.item {
+  width: 270px;
+  text-align: left;
+  margin: 0 15px 30px;
+}
+
+.item h1 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #292929;
+  padding: 0.094rem 0;
+  margin: 0.5rem 0 0.563rem;
+}
+
+.item h1 button {
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+  color: #292929;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+}
+
+.item a {
+  color: #292929;
+}
+
+.item h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 0.063rem 0;
+  margin: 0 0 0.438rem;
+}
+
+.item h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #c9a75c;
+  padding: 0.094rem 0;
+  margin: 0 0 0.688rem;
+}
+
+.item p {
+  font-size: 0.75rem;
+  color: #b0b0b0;
+  padding: 0.031rem 0;
+  margin: 0;
+}
+
+.btn {
+  width: 12.25rem;
+  height: 3.125rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #f5f5f5;
+  color: #6a6a6a;
+  font-size: 0.875rem;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.listGroup button:hover,
+.listGroup button:active,
+a:hover,
+a:active,
+.item h1 button:hover,
+.item h1 button:active {
+  color: #5cc9a3;
+}
+
+@media (max-width: 1200px) {
+  .productitems {
+    width: 600px;
+  }
+}

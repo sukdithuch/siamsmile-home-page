@@ -1,0 +1,60 @@
+.infoSec {
+  display: flex;
+  position: relative;
+  height: 335px;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 370px;
+  height: 9.688rem;
+  margin: 0 15px;
+}
+
+.text {
+  display: flex;
+}
+
+.text img {
+  margin-right: 0.875rem;
+}
+
+.text h1 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #292929;
+  padding: 0.094rem 0;
+  margin: 0;
+}
+
+.text p {
+  font-size: 1rem;
+  color: #6a6a6a;
+  padding: 0.063rem 0;
+  margin: 0.313rem 0 0;
+}
+
+.textContainer button {
+  background-color: transparent;
+  border: 0;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .image {
+    flex-direction: column;
+  }
+}

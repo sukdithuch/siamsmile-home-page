@@ -1,0 +1,152 @@
+.productSec {
+  display: flex;
+  justify-content: center;
+  padding: 5.625rem 0;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 550px;
+  background-color: #f5f5f5;
+  margin-right: 50px;
+}
+
+.container {
+  margin: auto 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  text-align: left;
+}
+
+.header h6 {
+  font-size: 0.875rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #5cc9a3;
+  padding: 0.063rem 0;
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #292929;
+  padding: 0.125rem 0;
+  margin: 1.581rem 0 1.069rem;
+}
+
+.header p {
+  width: 550px;
+  font-size: 1rem;
+  color: #6a6a6a;
+  line-height: 1.6rem;
+  margin: 0.125rem 0 0;
+  padding-bottom: 1.25rem;
+}
+
+.color {
+  font-size: 1.25rem;
+  letter-spacing: 1.2px;
+  color: #292929;
+  margin: 0;
+}
+
+.grey {
+  width: 0.938rem;
+  height: 0.938rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: #7c7c7c;
+  padding: 0;
+  margin: 0 5px 0 19px;
+}
+
+.red {
+  width: 0.938rem;
+  height: 0.938rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: #fd4e54;
+  padding: 0;
+  margin: 0 5px 0 0;
+}
+
+.pink {
+  width: 0.938rem;
+  height: 0.938rem;
+  border-radius: 50%;
+  border: 0;
+  background-color: #ff8181;
+  padding: 0;
+  margin: 0;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: left;
+  margin-top: 2rem;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10.5rem;
+  height: 3.125rem;
+  border: 1px solid #f5f5f5;
+  color: #c9a75c;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+}
+
+.price1 {
+  font-size: 1rem;
+  text-decoration: line-through;
+  margin-right: 0.497rem;
+}
+
+.price2 {
+  font-size: 1.25rem;
+}
+
+.btn {
+  width: 9.313rem;
+  height: 3.125rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #f5f5f5;
+  color: #6a6a6a;
+  font-size: 0.875rem;
+}
+
+.category {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #6a6a6a;
+}
+
+.category p {
+  padding: 0.063rem 0;
+  margin: 1.813rem 0 0;
+}
+
+.category span {
+  color: #5cc9a3;
+  padding-left: 0.3rem;
+}
+
+@media (max-width: 1200px) {
+  .productSec {
+    flex-wrap: wrap;
+  }
+}
