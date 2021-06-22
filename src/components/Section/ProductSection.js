@@ -2,7 +2,11 @@ import React from "react";
 
 import classes from "./ProductSection.module.css";
 
-const ProductSection = () => {
+
+const ProductSection = (props) => {
+
+    const { addToCart } = props;
+
     return (
         <section className={classes.productSec}>
             <div className={classes.imageContainer}>
@@ -28,7 +32,7 @@ const ProductSection = () => {
                                     <span className={classes.price2}>$32.00</span>
                                 </div>
                             </div>
-                            <button className={classes.btn}>
+                            <button className={classes.btn} onClick={addToCart}>
                                 Add To Cart
                             </button>
                         </div>

@@ -53,7 +53,7 @@ function App() {
         <LargeImgSection />
         <OffersSection addToCart={addToCart} removeFromCart={removeFromCart} cartItems={cartItems} />
         <InfoSection />
-        <ProductSection />
+        <ProductSection addToCart={addToCart} />
         <BlogSection />
       </Layout>
     </>
